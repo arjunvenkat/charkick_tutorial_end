@@ -1,4 +1,4 @@
-For the most detailed experience, please follow along with [this screencast](https://vimeo.com/169016772) and reference the [end product](https://github.com/arjunvenkat/charkick_tutorial_end) as needed
+For the most detailed experience, please follow along with [this screencast](https://vimeo.com/169016772) and reference the [starting point](https://github.com/arjunvenkat/charkick_tutorial_start) as needed
 
 ### Setup
 
