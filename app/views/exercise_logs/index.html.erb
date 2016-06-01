@@ -5,6 +5,15 @@
   </h1>
 </div>
 
+<h2>Average duration in minutes per exercise</h2>
+<%= pie_chart ExerciseLog.group(:category).average(:duration), ytitle: "Avg Minutes" %>
+
+<h2>Duration over time</h2>
+<%= line_chart ExerciseLog.group("date(exercise_logs.created_at)").sum(:duration) %>
+
+<h2>Manually entered data</h2>
+<%= pie_chart({:running => 32, :swimming => 54, :biking => 72}, ytitle: "Avg Minutes") %>
+
 <div class="row">
   <div class="col-md-12">
     <table class="table table-striped table-hover">
